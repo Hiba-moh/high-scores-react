@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  background-image: url('./Mario.jpg');
+  background-repeat: repeat-y;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+
+.countryTable {
+  display: flex;
+  margin-top: 3rem;
+  width: 40rem;
+  box-shadow: 15px 25px 35px black;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid rebeccapurple; */
+  border-radius: 50%;
+  background-color: #b20d30;
+}
+.allContries {
+  text-align: center;
+}
+
+.countryNameRow {
+  border-radius: 2rem;
+  box-shadow: 15px 5px 15px black;
+  margin-bottom: 2rem;
+  font-family: cursive;
+  font-size: x-large;
+  background-color: #3f784c;
+}
+
+.onePlayerRow {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-family: cursive;
+}
+.NS {
+  font-size: x-large;
+  text-align: center;
+  width: 30%;
+  height: 5rem;
+}
+.header {
+  margin-top: 4rem;
+  font-size: xx-large;
+  font-family: cursive;
+  font-style: italic;
+  display: block;
+}
+img {
+  width: 40px;
+  height: auto;
+}
