@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import playerScore from './PlayerScore';
 import HighScoreTable from './HighScoreTable';
 
 function App () {
