@@ -14,7 +14,7 @@ const HighScoreTable = () => {
   return (
     <div>
 
-      <tr class="header"><h1>High Score Per Country</h1></tr>
+      <tr class="header"><h1>High Score </h1></tr>
       <table class="allContries">
         {scores.map ((item, index) => {
           return (
