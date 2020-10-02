@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+  font-family: 'Press Start 2P', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -30,8 +35,8 @@ code {
   /* border: 2px solid rebeccapurple; */
   border-radius: 50%;
   background-color: #b20d30;
-}z
-.allContries {
+}
+z .allContries {
   text-align: center;
 }
 
@@ -39,8 +44,8 @@ code {
   border-radius: 2rem;
   box-shadow: 15px 5px 15px black;
   margin-bottom: 2rem;
-  font-family: cursive;
-  font-size: x-large;
+  font-family: 'Press Start 2P', cursive;
+  font-size: large;
   background-color: #3f784c;
 }
 
@@ -48,18 +53,18 @@ code {
   display: flex;
   justify-content: center;
   font-size: large;
-  font-family: cursive;
+  font-family: 'Press Start 2P', cursive;
 }
 .NS {
-  font-size: x-large;
+  font-size: large;
   text-align: center;
   width: 30%;
   height: 5rem;
 }
 .header {
   margin-top: 4rem;
-  font-size: xx-large;
-  font-family: cursive;
+  font-size: large;
+  font-family: 'Press Start 2P', cursive;
   font-style: italic;
   display: block;
 }
